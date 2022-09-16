@@ -1,0 +1,19 @@
+{
+  "name": "job-listing",
+  "version": "1.0.0",
+  "description": "A simple job listing app to practice react and js overall.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v3rti/job-listing-app.git"
+  },
+  "author": "Amine aka v3rti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v3rti/job-listing-app/issues"
+  },
+  "homepage": "https://github.com/v3rti/job-listing-app#readme"
+}
