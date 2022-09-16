@@ -1,11 +1,13 @@
 import React from "react";
 import {AiFillPlusCircle, AiOutlineCloseCircle} from 'react-icons/ai';
 import Header from '../assets/images/bg-header-desktop.svg';
+import NewJob from "./NewJob";
 
 const Navbar = () => {
 
   const logMsg = () => {
-    console.log("clicked!")
+    const doc = document.querySelector(".addJobForm");
+    doc.classList.toggle("hideForm");
   }
 
   return (

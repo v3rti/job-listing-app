@@ -14,3 +14,14 @@ body {
   @apply font-leagueSpartan bg-lg-cyanbg;
 }
 
+.addJobForm {
+  
+}
+
+.hideForm {
+  display: none;
+}
+
+.inputStyle {
+  @apply px-4 py-2 w-full rounded-lg text-base;
+}

@@ -15,17 +15,17 @@ const Card = () => {
               </div>
             </div>
             <h1 className="text-2xl font-bold">Job Title - Senior Frontend Engineer</h1>
-            <div className="flex gap-3 text-sm text-gray-500 mt-1">
+            <div className="flex gap-3 text-sm text-gray-400 mt-1">
               <p>1d ago</p>
               <p>Full-Time</p>
               <p>Europe</p>
             </div>
           </div>
         </div>
-        <div className=" flex items-center gap-6">
-          <h2 className="py-2 px-4  border-primary gap-2 text-primary bg-lg-cyanbg rounded-sm text-lg font-bold ">Frontend</h2>
-          <h2 className="py-2 px-4  border-primary gap-2 text-primary bg-lg-cyanbg rounded-sm text-lg font-bold ">Javascript</h2>
-          <h2 className="py-2 px-4  border-primary gap-2 text-primary bg-lg-cyanbg rounded-sm text-lg font-bold ">HTML/CSS</h2>
+        <div className="flex items-center gap-6">
+          <h2 className="cursor-pointer py-2 px-4 border-primary gap-2 text-primary bg-lg-cyanbg rounded-sm text-lg font-bold ">Frontend</h2>
+          <h2 className="cursor-pointer py-2 px-4 border-primary gap-2 text-primary bg-lg-cyanbg rounded-sm text-lg font-bold ">Javascript</h2>
+          <h2 className="cursor-pointer py-2 px-4 border-primary gap-2 text-primary bg-lg-cyanbg rounded-sm text-lg font-bold ">HTML/CSS</h2>
         </div>
       </div>
   )
